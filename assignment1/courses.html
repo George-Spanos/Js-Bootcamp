@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses form</title>
+    <link rel="stylesheet" href="trainer.css">
+    <link rel="icon" href="img/logo.png" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <header id="main_header">
+            <h2 class="pS"> <img src="img/logo.png" alt="" id="logo"> <a href="test1.html"> Private School </a></h2>
+            <nav id="main_nav">
+                <ul>
+                    <li><a href="">About us</a> </li>
+                    <li><a href="contact2.html">Contact us</a> </li>
+                    <li><a href="">Sign out</a> </li>
+
+                </ul>
+            </nav>
+        </header>
+        <div id="form_div">
+            <form action="">
+                <select name="courses" id="courses">
+                    <option value="#">Select a Course</option>/
+                    <optgroup label="front end"></optgroup>
+                    <option value="">Html/Css/Javascript</option>
+                    <option value="">Angural js</option>
+                    <optgroup label="back end"></optgroup>
+                    <option value="">Node js</option>
+                    <option value="">C#</option>
+                </select><br>
+                <div>
+                    <input type="date" id="startDate" name="startDate" placeholder="Start date"><br>
+                    <input type="date" id="endDate" name="endDate" placeholder="End date"><br>
+                </div>
+                <div>
+                    <label for="type1">Full-time</label>
+                    <input type="radio" name="type" id="type1">
+                    <label for="type2">Part-time</label>
+                    <input type="radio" name="type" id="type2"><br>
+                    <label for="checkBox">Online</label>
+                    <input type="radio" name="type3" id="checkBox">
+                    <label for="campus">On Campus</label>
+                    <input type="radio" name="type3" id="campus">
+                </div>
+                <button id="btn_submit"><a href="#" id="myButton">Submit</a></button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
