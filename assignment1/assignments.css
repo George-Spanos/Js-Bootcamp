@@ -7,6 +7,13 @@
     height: 50px;
 
 }
+.d-flex {
+    display: flex;
+}
+.header-text {
+    display: flex;
+    align-items: center;
+}
 #yolo{
     display: flex;
     justify-content: center;
@@ -61,6 +68,8 @@ img{
 }
 #main_nav{
     /* color:#3fc1c0; */
+    display: flex;
+    align-items: center;
     font-size: 1.5em;
 }
 #main_nav ul li{
