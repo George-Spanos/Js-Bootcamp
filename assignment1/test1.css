@@ -57,7 +57,13 @@ table {
     height: 50px;
 
 }
-
+.d-flex {
+    display: flex;
+}
+.header-text {
+    display: flex;
+    align-items: center;
+}
 body{
     
     box-sizing: border-box;
@@ -82,7 +88,7 @@ a:hover{
     color: rgb(143, 135, 33);;
 
 }
-img:hover{
+#section_div img:hover{
     transform: translateY(-0.25em);
     box-shadow: 10px 1em 0.5em -0.4em #5d5b5d;
     transition: color 0.25s ,border-color 0.25s, box-shadow 0.25s , transform 0.3s;
@@ -113,6 +119,8 @@ img{
 }
 #main_nav{
     /* color:#3fc1c0; */
+    display: flex;
+    align-items: center;
     font-size: 1.5em;
 }
 
